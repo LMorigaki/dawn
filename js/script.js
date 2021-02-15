@@ -16,7 +16,7 @@ const { parse, stringify } = JSON;
 const nodes = (elem) =>
       Array.prototype.slice.call($(elem).children);
 
-var place = localStorage.place || 'new york';
+var place = localStorage.place || 'ome,jp';
 
 $('.weather .edit').onclick = () =>
   $('.weather-config').classList.add('show');
